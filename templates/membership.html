@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership - Gym Management System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Gym Management System</h1>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('home') }}">Home</a></li>
+                    <li><a href="{{ url_for('about_us') }}">About Us</a></li>
+                    <li><a href="{{ url_for('membership') }}">Membership</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Membership Plans Section -->
+    <section class="membership-plans">
+        <div class="container">
+            <h2>Membership Plans</h2>
+            <div class="plan">
+                <h3>Basic Plan</h3>
+                <p>Rs 6000/month</p>
+                <p>Access to gym equipment and basic training sessions.</p>
+                <a href="#" class="cta-button">Sign Up</a>
+            </div>
+            <div class="plan">
+                <h3>Premium Plan</h3>
+                <p>Rs 12000/month</p>
+                <p>Access to gym equipment, group classes, and personal training sessions.</p>
+                <a href="#" class="cta-button">Sign Up</a>
+            </div>
+            <div class="plan">
+                <h3>VIP Plan</h3>
+                <p>Rs 25000/month</p>
+                <p>All the benefits of Premium, plus additional perks like nutrition advice.</p>
+                <a href="#" class="cta-button">Sign Up</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Gym Management System. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
