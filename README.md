@@ -21,6 +21,6 @@ Haffad GYM is a dynamic web application designed to manage gym memberships and p
    • Version Control: Git, GitHub
 
 # Purpose
-Haffad GYM is created to provide a smooth and efficient user experience for gym-goers, offering convenient membership registration, detailed gym information, and an engaging team presentation. The aim is to build a vibrant community centered around fitness and well-being
+Haffad GYM is created to provide a smooth and efficient user experience for gym-goers, offering convenient membership registration, detailed gym information, and an engaging team presentation. The aim is to build a vibrant community centered around fitness and well-being.
 
 
