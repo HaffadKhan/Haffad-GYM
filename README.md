@@ -1,5 +1,3 @@
- offerings.
-
 # Features
    • User Registration: Allows users to sign up and create their account to manage their membership.
    
